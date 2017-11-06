@@ -35,6 +35,7 @@
   "lastfm-login-not-authorized": "No Autorizado",
   "lastfm-logout-button-text": "Cerrar sesión en Last.FM",
   "lastfm-map-thumbs-up-to-heart": "Marcar automáticamente como Love Tracks las canciones que me gustan",
+  "listenbrainz-label-user-token": "",
 
   "lyrics-failed-message": "Lo sentimos, no hemos podido encontrar la letra de esta canción",
   "lyrics-loading-message": "Cargando la letra...",
@@ -132,6 +133,7 @@
   "title-settings-general": "General",
   "title-settings-hotkeys": "Atajos de Teclado",
   "title-settings-lastfm": "LastFM",
+  "title-settings-listenbrainz": "ListenBrainz",
   "title-settings-mini": "Reproductor Mini",
   "title-settings-style": "Estilos Personalizados",
 
