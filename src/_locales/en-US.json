@@ -37,6 +37,7 @@
   "lastfm-map-thumbs-up-to-heart": "Automatically love tracks that are thumbed up",
 
   "listenbrainz-label-user-token": "Enter your ListenBrainz user token (can be found at https://listenbrainz.org/user/info)",
+  "listenbrainz-token-here": "Enter token",
 
   "lyrics-failed-message": "Sorry, we could not find any lyrics for this song",
   "lyrics-loading-message": "Loading lyrics...",
@@ -70,6 +71,7 @@
   "playback-label-volume-up": "Increase Volume",
   "playback-label-info-track": "Notify current track",
   "playback-os-no-track-playing": "No Track Playing",
+  "playback-label-im-feeling-lucky": "I'm Feeling Lucky",
 
   "settings-requires-restart": "Requires restart",
 
@@ -96,6 +98,7 @@
   "settings-option-enable-win10-media-service": "Enable the Windows 10 System Media Service",
   "settings-option-enable-win10-media-service-details": "This will show the current track on the lock screen",
   "settings-option-enable-win10-media-service-track-info": "Show track information in Windows 10 volume overlay",
+  "settings-option-discord-rich-presence": "Enable Discord Rich Presence integration",
   "settings-option-change-locale": "Choose language",
 
   "settings-option-hotkey-explanation": "Default media keys will continue to work regardless of these settings.  These settings are in addition to the defaults.",

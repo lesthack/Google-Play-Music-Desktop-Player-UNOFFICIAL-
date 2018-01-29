@@ -37,6 +37,7 @@
   "lastfm-map-thumbs-up-to-heart": "",
 
   "listenbrainz-label-user-token": "",
+  "listenbrainz-token-here": "",
 
   "lyrics-failed-message": "На жаль, ми не змогли знайти текст до цієї пісні",
   "lyrics-loading-message": "Завантаження текту пісні...",
@@ -70,6 +71,7 @@
   "playback-label-volume-up": "Збільшити гучність",
   "playback-label-info-track": "Повідомлення про поточний трек",
   "playback-os-no-track-playing": "Нічого не відтворюється",
+  "playback-label-im-feeling-lucky": "",
 
   "settings-requires-restart": "Потребує перезапуску",
 
@@ -95,6 +97,7 @@
   "settings-option-enable-taskbar-progress": "Відобразити прогрес відтворення в панелі",
   "settings-option-enable-win10-media-service": "Увімкнути медіа сервіс Windows 10",
   "settings-option-enable-win10-media-service-details": "Буде показувати активний трек на екрані блокування",
+  "settings-option-discord-rich-presence": "",
   "settings-option-enable-win10-media-service-track-info": "",
   "settings-option-change-locale": "Обрати мову",
 
