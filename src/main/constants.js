@@ -1,5 +1,5 @@
-export const LASTFM_API_KEY = process.env.GPMDP_LASTFM_API_KEY;
-export const LASTFM_API_SECRET = process.env.GPMDP_LASTFM_API_SECRET;
+export const LASTFM_API_KEY = '17bd7f0d94443f6339322ec910429126';
+export const LASTFM_API_SECRET = 'dbfbc34cdff30a64e2dac071272d5ac4';
 
 if (!LASTFM_API_KEY || !LASTFM_API_SECRET ||
   LASTFM_API_KEY === 'undefined' || LASTFM_API_SECRET === 'undefined') {
