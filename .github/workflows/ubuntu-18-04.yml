@@ -7,17 +7,20 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-18.04
-
+    strategy:
+      matrix:
+        node-version: [6.17.1]
     steps:
       - name: Checkout
-      - uses: actions/checkout@v1
+        uses: actions/checkout@v1
         
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      - name: Run a multi-line script
+      - name: Requirements
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          sudo apt-get update && sudo apt-get upgrade -y
+          sudo apt-get install g++-multilib lib32z1 lib32ncurses5 rpm fakeroot dpkg libdbus-1-dev libx11-dev g++ libavahi-compat-libdnssd-dev gcc-4.8-multilib g++-4.8-multilib libnotify4 libexpat1-dev libbz2-1.0 -y
+
+      - name: npm
+        run: |
+          npm install
+          npm run build
